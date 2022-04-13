@@ -1,0 +1,128 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.first-container{
+  background-color: #F9F3DF;
+  position: relative;
+  padding-top: 173px;
+}
+
+.middle-container{
+margin: 100px 0;
+}
+
+.bottom-container{
+background-color: #FFC898;
+padding: 20px 0 20px;
+}
+
+.BigPhoto{
+  width: 150px;
+  height: 150px;
+}
+
+.purpleLaptop{
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.purringCat{
+  width: 20%;
+  height: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+h1{
+  margin: 50px auto 0 auto;
+font-family: 'Montez', cursive;
+font-size: 5.625rem;
+color: #FFC898;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #FFC898;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #FFC898;
+
+}
+
+a{
+  color: orange;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #FFDEFA;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+ /* you can use clear: left; and write below the image wit <p> */
+}
+
+p, ul{
+  line-height: 2;
+}
+
+hr{
+  border-color: #CDF2CA;
+  border-style: dotted none none;
+  width: 15%;
+  border-width: 5px;
+}
+
+.bottom-cloud{
+  position: absolute;
+}
+.top-cloud{
+  position: absolute;
+  left: 850px;
+  top: 130px;
+}
+
+
+.btn {
+  background: #e6bb98;
+  background-image: -webkit-linear-gradient(top, #e6bb98, #ffd1ab);
+  background-image: -moz-linear-gradient(top, #e6bb98, #ffd1ab);
+  background-image: -ms-linear-gradient(top, #e6bb98, #ffd1ab);
+  background-image: -o-linear-gradient(top, #e6bb98, #ffd1ab);
+  background-image: linear-gradient(to bottom, #e6bb98, #ffd1ab);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ffd5b2;
+  background-image: -webkit-linear-gradient(top, #ffd5b2, #ffe0c7);
+  background-image: -moz-linear-gradient(top, #ffd5b2, #ffe0c7);
+  background-image: -ms-linear-gradient(top, #ffd5b2, #ffe0c7);
+  background-image: -o-linear-gradient(top, #ffd5b2, #ffe0c7);
+  background-image: linear-gradient(to bottom, #ffd5b2, #ffe0c7);
+  text-decoration: none;
+  color: white;
+}
