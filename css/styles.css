@@ -1,4 +1,3 @@
-
 body{
   margin: 0;
   text-align: center;
@@ -8,7 +7,7 @@ body{
 .first-container{
   background-color: #F9F3DF;
   position: relative;
-  padding-top: 173px;
+  height: 100vh;
 }
 
 .middle-container{
@@ -40,7 +39,8 @@ padding: 20px 0 20px;
 }
 
 h1{
-  margin: 50px auto 0 auto;
+padding-top: 100px ;
+margin-top: 0;
 font-family: 'Montez', cursive;
 font-size: 5.625rem;
 color: #FFC898;
@@ -91,13 +91,21 @@ hr{
 
 .bottom-cloud{
   position: absolute;
+  left:400px;
+
 }
 .top-cloud{
   position: absolute;
-  left: 850px;
-  top: 130px;
+  left: 980px;
+  top: 110px;
 }
 
+.mountain{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 .btn {
   background: #e6bb98;
